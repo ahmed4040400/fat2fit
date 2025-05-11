@@ -1,0 +1,35 @@
+POST https://musclescoach.onrender.com/fitness-advice/?query=What%20should%20I%20eat%20to%20gain%20muscle?
+Content-Type: application/json
+Accept: application/json
+
+
+
+###
+POST https://nutrition-plan-recommendation-system.onrender.com/set_user_info
+Content-Type: application/json
+Accept: application/json
+
+{
+  "language": "arabic",
+  "food_type": "egyptian",
+  "weight": 72,
+  "height": 180,
+  "age": 21,
+  "gender": "male",
+  "activity_level": "very_active",
+  "body_shape_goal": "muscular"
+}
+
+###
+GET https://nutrition-plan-recommendation-system.onrender.com/generate_plan/?session_id=5359298d-2156-4402-9e5e-2c077c178c45
+Content-Type: application/json
+
+
+
+###
+
+# regenerate the plan
+GET https://nutrition-plan-recommendation-system.onrender.com/regenerate_plan?session_id=18afd2df-c638-48f9-88d9-517ad866fe36
+Content-Type: application/json
+Accept: application/json
+

@@ -43,6 +43,14 @@ dependencies:
   uuid: ^4.2.1 # For generating message IDs
   http: ^1.3.0
   loading_animation_widget: ^1.3.0
+  flutter_rating_bar: ^4.0.1 # For meal rating functionality
+  cloud_firestore: ^4.15.4 # Firebase Firestore for storing session IDs
+  # Firebase packages
+  firebase_core: ^2.25.4
+  firebase_auth: ^4.17.4
+  lottie: ^3.0.0 # For beautiful animations
+  shimmer: ^3.0.0 # For loading effects
+  cached_network_image: ^3.2.3
 
 dev_dependencies:
   flutter_test:

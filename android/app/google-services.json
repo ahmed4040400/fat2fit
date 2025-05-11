@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "57683864788",
+    "project_id": "gymm-6882b",
+    "storage_bucket": "gymm-6882b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:57683864788:android:1563ee28124009036d9f41",
+        "android_client_info": {
+          "package_name": "com.example.fat2fit"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeMcLstWXshvMmiHzubIcjSjDRfTv5aDY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
